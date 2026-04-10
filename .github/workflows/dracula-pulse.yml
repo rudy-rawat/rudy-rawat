@@ -29,6 +29,7 @@ jobs:
       - name: Generate Dracula Pulse SVGs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USER: ${{ github.repository_owner }}
         run: |
           mkdir -p dist
           python3 scripts/gen_dracula_pulse.py
