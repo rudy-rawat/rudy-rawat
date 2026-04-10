@@ -78,17 +78,22 @@ Planned updates:
 ## Featured Projects
 These projects represent my current direction in immersive tech and applied development.
 
-<div align="center">
-
-[![NeuroAR](https://github-readme-stats.vercel.app/api/pin/?username=rudy-rawat&repo=NeuroAR&theme=dracula&hide_border=true)](https://github.com/rudy-rawat/NeuroAR)
-[![Riftbound Arena](https://github-readme-stats.vercel.app/api/pin/?username=rudy-rawat&repo=Riftbound-Arena&theme=dracula&hide_border=true)](https://github.com/rudy-rawat/Riftbound-Arena)
-[![RTIPVD](https://github-readme-stats.vercel.app/api/pin/?username=rudy-rawat&repo=RTIPVD&theme=dracula&hide_border=true)](https://github.com/rudy-rawat/RTIPVD)
-
-</div>
+- [NeuroAR](https://github.com/rudy-rawat/NeuroAR)
+  ![Stars](https://img.shields.io/github/stars/rudy-rawat/NeuroAR?style=flat-square)
+  ![Forks](https://img.shields.io/github/forks/rudy-rawat/NeuroAR?style=flat-square)
+  ![Last Commit](https://img.shields.io/github/last-commit/rudy-rawat/NeuroAR?style=flat-square)
+- [Riftbound Arena](https://github.com/rudy-rawat/Riftbound-Arena)
+  ![Stars](https://img.shields.io/github/stars/rudy-rawat/Riftbound-Arena?style=flat-square)
+  ![Forks](https://img.shields.io/github/forks/rudy-rawat/Riftbound-Arena?style=flat-square)
+  ![Last Commit](https://img.shields.io/github/last-commit/rudy-rawat/Riftbound-Arena?style=flat-square)
+- [AR-Sandbox](https://github.com/rudy-rawat/AR-Sandbox)
+  ![Stars](https://img.shields.io/github/stars/rudy-rawat/AR-Sandbox?style=flat-square)
+  ![Forks](https://img.shields.io/github/forks/rudy-rawat/AR-Sandbox?style=flat-square)
+  ![Last Commit](https://img.shields.io/github/last-commit/rudy-rawat/AR-Sandbox?style=flat-square)
 
 - NeuroAR: exploring AR experiences for education and practical problem solving.
 - Riftbound Arena: building interaction-heavy gameplay systems in Unity.
-- RTIPVD: focused project in your applied development track.
+- AR-Sandbox: experimenting with interactive AR mechanics and environment setup.
 
 ## Now Building / Current Focus
 - AR/VR prototypes with practical, real-world use cases.
@@ -103,19 +108,21 @@ These projects represent my current direction in immersive tech and applied deve
 ## GitHub Stats
 <div align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=rudy-rawat&theme=dracula&hide_border=true" height="165" alt="GitHub streak" />
-<img src="https://github-readme-stats.vercel.app/api?username=rudy-rawat&theme=dracula&hide_border=true&count_private=true&show_icons=true" height="165" alt="GitHub stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rudy-rawat&theme=dracula&hide_border=true&layout=compact" height="165" alt="Top languages" />
+<img src="https://streak-stats.demolab.com?user=rudy-rawat&theme=dracula&hide_border=true" height="165" alt="GitHub streak" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=rudy-rawat&theme=dracula" height="165" alt="GitHub stats" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=rudy-rawat&theme=dracula" height="165" alt="Top languages" />
 
 </div>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=rudy-rawat&theme=dracula&row=1&column=7&margin-w=8&margin-h=8" alt="Trophies" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=rudy-rawat&theme=dracula" alt="Profile details" />
 </div>
 
 ## Top Contributed Repo
-<img src="https://github-contributor-stats.vercel.app/api?username=rudy-rawat&limit=5&theme=dark&combine_all_yearly_contributions=true" alt="Top contributed repos" />
+Top contributed repositories card provider is currently unstable.
+
+[View contribution activity on GitHub](https://github.com/rudy-rawat)
 
 <br/>
 
-<img src="https://visitcount.itsvg.in/api?id=rudy-rawat&icon=0&color=0" alt="Visitor counter" />
+<img src="https://komarev.com/ghpvc/?username=rudy-rawat&label=Profile%20views&color=0e75b6&style=flat" alt="Visitor counter" />
