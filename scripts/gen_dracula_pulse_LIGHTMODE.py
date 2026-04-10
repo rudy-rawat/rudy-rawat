@@ -68,7 +68,7 @@ def main():
     token = os.getenv("GITHUB_TOKEN")
     if not token:
         raise SystemExit("Missing GITHUB_TOKEN")
-  print(f"Rendering pulse text: {DISPLAY_TEXT}")
+    print(f"Rendering pulse text: {DISPLAY_TEXT}")
 
     resp = requests.post(
         "https://api.github.com/graphql",
