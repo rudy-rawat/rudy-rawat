@@ -1,6 +1,7 @@
 import os, requests
 
 GITHUB_USER = os.getenv("GITHUB_USER", os.getenv("GITHUB_REPOSITORY", "rudy-rawat/rudy-rawat").split("/")[0])
+DISPLAY_TEXT = os.getenv("PULSE_TEXT", "RUDY RAWAT").upper()
 
 COLORS = [
     "#0d1117",
@@ -14,16 +15,30 @@ COLORS = [
 
 THRESHOLDS = [0,1,2,4,8,12,20]
 
-MASK_BASE = {
-    (0,0),(1,0),(2,0),(1,1),(1,2),(1,3),(1,4),
-    (4,0),(4,1),(4,2),(4,3),(4,4),(5,2),(6,0),(6,1),(6,2),(6,3),(6,4),
-    (8,2),(9,2),(10,2),
-    (12,0),(12,1),(12,2),(12,3),(12,4),(13,0),(14,0),(14,1),(14,2),(13,4),(14,4),
-    (16,0),(16,1),(16,2),(16,3),(16,4),(17,0),(18,0),(18,1),(18,2),
-    (20,1),(20,2),(20,3),(21,0),(21,4),(22,1),(22,2),(22,3),
-    (24,1),(24,2),(24,3),(25,0),(25,4),(26,1),(26,2),(26,3),
-    (28,0),(28,1),(28,2),(28,3),(28,4),(29,4),(30,4)
+FONT_4X5 = {
+  "R": ["1110", "1001", "1110", "1010", "1001"],
+  "U": ["1001", "1001", "1001", "1001", "1111"],
+  "D": ["1110", "1001", "1001", "1001", "1110"],
+  "Y": ["1001", "1001", "0110", "0010", "0010"],
+  "A": ["0110", "1001", "1111", "1001", "1001"],
+  "W": ["1001", "1001", "1011", "1111", "1001"],
+  "T": ["1111", "0010", "0010", "0010", "0010"],
+  " ": ["00", "00", "00", "00", "00"],
+  "-": ["000", "111", "000", "000", "000"],
 }
+
+def build_mask_base(text):
+  mask = set()
+  x_cursor = 0
+  for ch in text:
+    glyph = FONT_4X5.get(ch, FONT_4X5[" "])
+    width = len(glyph[0])
+    for y, row in enumerate(glyph):
+      for x, pixel in enumerate(row):
+        if pixel == "1":
+          mask.add((x_cursor + x, y))
+    x_cursor += width + 1
+  return mask
 
 QUERY = """
 query ($login: String!) {
@@ -52,6 +67,7 @@ def main():
     token = os.getenv("GITHUB_TOKEN")
     if not token:
         raise SystemExit("Missing GITHUB_TOKEN")
+  print(f"Rendering pulse text: {DISPLAY_TEXT}")
 
     resp = requests.post(
         "https://api.github.com/graphql",
@@ -62,9 +78,14 @@ def main():
     weeks = resp["data"]["user"]["contributionsCollection"]["contributionCalendar"]["weeks"]
 
     wc = len(weeks)
-    glyph_width = max(x for x,_ in MASK_BASE) + 1
-    x_shift = (wc - glyph_width) // 2
-    mask = {(x + x_shift, y + 1) for (x, y) in MASK_BASE}
+    mask_base = build_mask_base(DISPLAY_TEXT)
+    glyph_width = max((x for x, _ in mask_base), default=0) + 1
+    x_shift = max((wc - glyph_width) // 2, 0)
+    mask = {
+      (x + x_shift, y + 1)
+      for (x, y) in mask_base
+      if (x + x_shift) < wc and (y + 1) < 7
+    }
 
     CELL, GAP = 14, 3
     W = wc * (CELL + GAP)
