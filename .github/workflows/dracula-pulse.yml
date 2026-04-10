@@ -30,6 +30,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_USER: ${{ github.repository_owner }}
+          PULSE_TEXT: RUDY RAWAT
         run: |
           mkdir -p dist
           python3 scripts/gen_dracula_pulse.py
