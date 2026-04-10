@@ -1,0 +1,47 @@
+name: Dracula Pulse
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  pulse:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install deps
+        run: pip install requests
+
+      - name: Generate Dracula Pulse SVGs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p dist
+          python3 scripts/gen_dracula_pulse.py
+          python3 scripts/gen_dracula_pulse_mobile.py
+          python3 scripts/gen_dracula_pulse_LIGHTMODE.py
+
+      - name: Publish pulse art
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: dracula-pulse-art
+          publish_dir: ./dist
+          user_name: github-actions[bot]
+          user_email: github-actions@github.com
+          commit_message: "update: dracula pulse"
+          force_orphan: true
