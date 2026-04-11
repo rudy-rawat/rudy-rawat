@@ -67,7 +67,7 @@ def main():
     token = os.getenv("GITHUB_TOKEN")
     if not token:
         raise SystemExit("Missing GITHUB_TOKEN")
-  print(f"Rendering pulse text: {DISPLAY_TEXT}")
+    print(f"Rendering pulse text: {DISPLAY_TEXT}")
 
     resp = requests.post(
         "https://api.github.com/graphql",
@@ -82,9 +82,9 @@ def main():
     glyph_width = max((x for x, _ in mask_base), default=0) + 1
     x_shift = max((wc - glyph_width) // 2, 0)
     mask = {
-      (x + x_shift, y + 1)
-      for (x, y) in mask_base
-      if (x + x_shift) < wc and (y + 1) < 7
+        (x + x_shift, y + 1)
+        for (x, y) in mask_base
+        if (x + x_shift) < wc and (y + 1) < 7
     }
 
     CELL, GAP = 14, 3
