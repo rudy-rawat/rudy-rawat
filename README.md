@@ -21,7 +21,7 @@
   />
 </picture>
 
-<h1>RUDY RAWAT</h1>
+<h1>HIMANSHU RAWAT</h1>
 <h3>XR Developer | Civil Engineer | Game Developer | Open Source Learner</h3>
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=26&pause=1300&color=00E5FF&center=true&vCenter=true&width=900&height=50&lines=Building+immersive+XR+experiences;Learning+software+engineering+by+shipping;Designing+systems+that+feel+alive" alt="Typing intro" />
