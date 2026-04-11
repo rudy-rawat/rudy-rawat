@@ -24,15 +24,22 @@
 <h1>RUDY RAWAT</h1>
 <h3>XR Developer | Civil Engineer | Game Developer | Open Source Learner</h3>
 
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=26&pause=1300&color=00E5FF&center=true&vCenter=true&width=900&height=50&lines=Building+immersive+XR+experiences;Learning+software+engineering+by+shipping;Designing+systems+that+feel+alive" alt="Typing intro" />
+
 <p>
   <img src="https://img.shields.io/badge/Location-India-2ea44f?style=flat-square" alt="Location India" />
   <img src="https://img.shields.io/badge/Timezone-IST%20(Asia%2FKolkata)-1f6feb?style=flat-square" alt="Timezone IST" />
   <img src="https://img.shields.io/badge/Open%20To-Internships%20%26%20Collaborations-8957e5?style=flat-square" alt="Open to internships and collaborations" />
 </p>
 
+<p>
+  <img src="https://img.shields.io/badge/Focus-AR%2FVR%20%7C%20Unity%20%7C%20Unreal-00e5ff?style=for-the-badge" alt="Focus" />
+  <img src="https://img.shields.io/badge/Learning-.NET%20Backend-0072ff?style=for-the-badge" alt="Learning" />
+</p>
+
 </div>
 
-## Professional Snapshot
+## Signal Feed
 UG student building at the intersection of XR, game systems, and practical engineering. I like turning ideas into interactive prototypes and shipping fast, learnable experiences.
 
 - Focused on AR/VR development and immersive interaction design.
@@ -40,18 +47,23 @@ UG student building at the intersection of XR, game systems, and practical engin
 - Growing into full software development with C#, .NET, and backend fundamentals.
 - Interested in AI-assisted workflows for real-world products.
 
-## Socials
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rawat-himanshu8800)
+## Mission Control
 
-Planned updates:
-- Portfolio
-- X / Twitter
-- Instagram
-- Discord
-- Email
-- YouTube / Blog
+| Now Building | Next Upgrade |
+| --- | --- |
+| AR/VR prototypes with practical real-world use cases | Stronger C# and .NET fundamentals |
+| Better gameplay loops and immersive interaction systems | Cleaner backend and system design thinking |
+| More maintainable project structure and version control discipline | Public portfolio and case-study style project pages |
 
-## Tech Stack
+## Project Radar
+
+| Project | Snapshot | Signals |
+| --- | --- | --- |
+| [NeuroAR](https://github.com/rudy-rawat/NeuroAR) | AR work for educational and practical scenarios | ![Stars](https://img.shields.io/github/stars/rudy-rawat/NeuroAR?style=flat-square) ![Forks](https://img.shields.io/github/forks/rudy-rawat/NeuroAR?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/rudy-rawat/NeuroAR?style=flat-square) |
+| [Riftbound Arena](https://github.com/rudy-rawat/Riftbound-Arena) | Interaction-heavy arena systems in Unity | ![Stars](https://img.shields.io/github/stars/rudy-rawat/Riftbound-Arena?style=flat-square) ![Forks](https://img.shields.io/github/forks/rudy-rawat/Riftbound-Arena?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/rudy-rawat/Riftbound-Arena?style=flat-square) |
+| [AR-Sandbox](https://github.com/rudy-rawat/AR-Sandbox) | Experimental AR mechanics and environment setup | ![Stars](https://img.shields.io/github/stars/rudy-rawat/AR-Sandbox?style=flat-square) ![Forks](https://img.shields.io/github/forks/rudy-rawat/AR-Sandbox?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/rudy-rawat/AR-Sandbox?style=flat-square) |
+
+## Stack Matrix
 
 ### Languages
 ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
@@ -75,37 +87,7 @@ Planned updates:
 
 <!-- Add new badges here as you learn more. -->
 
-## Featured Projects
-These projects represent my current direction in immersive tech and applied development.
-
-- [NeuroAR](https://github.com/rudy-rawat/NeuroAR)
-  ![Stars](https://img.shields.io/github/stars/rudy-rawat/NeuroAR?style=flat-square)
-  ![Forks](https://img.shields.io/github/forks/rudy-rawat/NeuroAR?style=flat-square)
-  ![Last Commit](https://img.shields.io/github/last-commit/rudy-rawat/NeuroAR?style=flat-square)
-- [Riftbound Arena](https://github.com/rudy-rawat/Riftbound-Arena)
-  ![Stars](https://img.shields.io/github/stars/rudy-rawat/Riftbound-Arena?style=flat-square)
-  ![Forks](https://img.shields.io/github/forks/rudy-rawat/Riftbound-Arena?style=flat-square)
-  ![Last Commit](https://img.shields.io/github/last-commit/rudy-rawat/Riftbound-Arena?style=flat-square)
-- [AR-Sandbox](https://github.com/rudy-rawat/AR-Sandbox)
-  ![Stars](https://img.shields.io/github/stars/rudy-rawat/AR-Sandbox?style=flat-square)
-  ![Forks](https://img.shields.io/github/forks/rudy-rawat/AR-Sandbox?style=flat-square)
-  ![Last Commit](https://img.shields.io/github/last-commit/rudy-rawat/AR-Sandbox?style=flat-square)
-
-- NeuroAR: exploring AR experiences for education and practical problem solving.
-- Riftbound Arena: building interaction-heavy gameplay systems in Unity.
-- AR-Sandbox: experimenting with interactive AR mechanics and environment setup.
-
-## Now Building / Current Focus
-- AR/VR prototypes with practical, real-world use cases.
-- Better gameplay loops and immersive interaction systems.
-- Cleaner software architecture, maintainable code, and version control discipline.
-- Structured learning path for C#, .NET, and software engineering fundamentals.
-
-## Achievements / Certifications
-- Building a public record of milestones (hackathons, internships, certifications, and project launches).
-- This section will be expanded as new achievements are completed.
-
-## GitHub Stats
+## GitHub Telemetry
 <div align="center">
 
 <img src="https://streak-stats.demolab.com?user=rudy-rawat&theme=dracula&hide_border=true" height="165" alt="GitHub streak" />
@@ -118,11 +100,16 @@ These projects represent my current direction in immersive tech and applied deve
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=rudy-rawat&theme=dracula" alt="Profile details" />
 </div>
 
-## Top Contributed Repo
-Top contributed repositories card provider is currently unstable.
+## Connect
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rawat-himanshu8800)
+[![Portfolio Soon](https://img.shields.io/badge/Portfolio-Soon-111827?style=flat-square)](#)
+[![Discord Soon](https://img.shields.io/badge/Discord-Soon-111827?style=flat-square)](#)
+[![Email Soon](https://img.shields.io/badge/Email-Soon-111827?style=flat-square)](#)
 
-[View contribution activity on GitHub](https://github.com/rudy-rawat)
+## Achievements and Certifications
+- Building a public record of milestones: hackathons, internships, certifications, and launches.
+- This section expands as new achievements are completed.
 
-<br/>
-
-<img src="https://komarev.com/ghpvc/?username=rudy-rawat&label=Profile%20views&color=0e75b6&style=flat" alt="Visitor counter" />
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=rudy-rawat&label=Profile%20views&color=0e75b6&style=flat" alt="Visitor counter" />
+</div>
