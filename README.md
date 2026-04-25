@@ -112,7 +112,7 @@ UG student building at the intersection of XR, gameplay systems, and practical e
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rawat-himanshu8800)
 [![Portfolio Soon](https://img.shields.io/badge/Portfolio-Soon-1a001f?style=flat-square&logoColor=white)](#)
 [![Discord Soon](https://img.shields.io/badge/Discord-Soon-1a001f?style=flat-square&logoColor=white)](#)
-[![Email Soon](https://img.shields.io/badge/Email-Soon-1a001f?style=flat-square&logoColor=white)](#)
+[![Email](https://img.shields.io/badge/Email-Soon-1a001f?style=flat-square&logoColor=white)](rawat.himanshu.0808@gmail.com)
 
 ## [ XP LOG ]
 - Building a public record of milestones: hackathons, internships, certifications, and launches.
